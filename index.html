@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <h1>Weather App</h1>
+            <form id="locationForm">
+                <div class="search-container">
+                    <label for="locationInput">Type an city below here:</label>
+                    <br>
+                    <input type="text" id="locationInput" placeholder="enter name of the city" required />
+                    <br><br>
+                </div>
+                <button type="submit">search</button>
+                <br><br>
+            </form>
+            <div id="loading" style="display: none">Loading...</div>
+            <div id="weatherData"></div>
+
+        </div>
+    </center>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+
+
+body{
+    background-image: 'cloud.jpeg';
+    background-color: cornflowerblue;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: rgb(19, 180, 28);
+    font-size: 60px;
+    
+}
+label{
+    font-size: 35px;
+    color: black;
+}
+input{
+    border: solid 3px goldenrod;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    color: blue;
+}
+button{
+    border: solid 2px greenyellow;
+    font-size: 30px;
+}
+.loading{
+    font-size: 30px;
+    color: aquamarine;
+}
